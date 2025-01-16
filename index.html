@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Time</title>
+    <link rel="stylesheet" href="style.css">
+    <link data-default-icon="https://hips.hearstapps.com/hmg-prod/images/people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg" size="192x192" rel="icon"
+    href="https://hips.hearstapps.com/hmg-prod/images/people-playing-paper-rock-scissors-royalty-free-illustration-1583269312.jpg">
+</head>
+<body>
+    <h1>Rock Paper Scissors Shoot!</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="https://rock-paper-scissor-game-web-game.netlify.app/image/stones.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU__p-H4AAGYWqg7beL5ZhAp_9luqcU2yvtydhD1r7qDexI694iaKsgO9E7FM1mlSatdE&usqp=CAU" alt="paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="https://www.pngitem.com/pimgs/m/772-7721702_rock-paper-scissors-png-transparent-png.png" alt="sciss">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="userscore">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="compscore">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div> <br>
+    <button id="retryBtn">
+        Play Again? 
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
